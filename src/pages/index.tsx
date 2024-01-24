@@ -1,8 +1,13 @@
 import About from "@/components/About";
+import Blog from "@/components/Blog";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
+import Projects from "@/components/Projects";
 import Services from "@/components/Services";
+import Skills from "@/components/Skills";
+import Testimonial from "@/components/Testimonial";
 import React, { useState } from "react";
 
 const HomePage = () => {
@@ -27,6 +32,16 @@ const HomePage = () => {
           <About />
           {/* Services Page */}
           <Services />
+          {/* Skills Page */}
+          <Skills />
+          {/* Projects Page */}
+          <Projects />
+          {/* Reviews Page */}
+          <Testimonial />
+          {/* Blog Page */}
+          <Blog />
+          {/* Footer Page */}
+          <Footer />
         </div>
       </div>
     </div>
