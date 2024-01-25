@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/24/solid";
 
 const Hero = () => {
   return (
-    <div id="hero" className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-[10vh]">
+    <div id="home" className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center mt-[10vh]">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>

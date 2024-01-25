@@ -11,7 +11,6 @@ import Testimonial from "@/components/Testimonial";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import {AsyncHashLinkObserver} from "react-hash-link";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -54,7 +53,6 @@ const HomePage = () => {
         {/* Navbar */}
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
-        <AsyncHashLinkObserver />
         {/* Hero Section */}
         <Hero />
         <div className="relative z-[30]">
