@@ -11,18 +11,18 @@ const About = () => {
             ABOUT ME
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            Transforming <span className="text-yellow-400">Visions</span>
+            Programming <span className="text-yellow-400">Journey</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              Minim consectetur esse magna commodo incididunt consectetur non
-              consectetur consectetur voluptate esse sint ex. Commodo pariatur
-              magna amet nulla minim sunt anim consequat et sint voluptate. Eu
-              eu laborum amet sit velit cupidatat irure cupidatat. Labore
-              aliquip dolor ex labore ad commodo. Ipsum incididunt Lorem laborum
-              consectetur Lorem. Ullamco eiusmod commodo excepteur Lorem in
-              aliquip duis elit cupidatat nostrud cillum fugiat ad anim.
+              Inspired to create a hacking tool for an online game, he learned
+              to program in C++ as a kid by reading books he created his early
+              programs, but those skills are not enough to create hacking tools.
+              Going to college he learned different programming languages like
+              Visual Basic, Java, Python, Matlab and Javascript. And eventually
+              created an IoT website with Artificial intelligence using NodeJS,
+              Tensorflow, C++ and Python as a capstone project.
             </p>
           </div>
           <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
@@ -30,7 +30,10 @@ const About = () => {
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
           </button>
         </div>
-        <div data-aos="fade-left" className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
+        <div
+          data-aos="fade-left"
+          className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative"
+        >
           <Image
             src="/images/about.jpg"
             alt="user"

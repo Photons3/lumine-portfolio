@@ -10,26 +10,50 @@ const Skills = () => {
       </h1>
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
-          <SkillsItem title="React Developer" year="2014-2018" />
-          <SkillsItem title="MERN Stack Developer" year="2016-2020" />
+          <SkillsItem title="Service Engineer" year="2018-2022">
+            Licensed Electronics Engineer, handles accounts such as hospitals
+            and clinics around Manila and Southern Luzon. Has an experience in
+            quality assurance, troubleshooting and reparing medical equipments.
+            Also, in charge of training, demo and installation of different
+            medical equipment.
+          </SkillsItem>
+          <SkillsItem title="Scripting/Automation" year="2020-2023">
+            Used Python, Jupiter Notebooks, Linux Virtual Machines and Matlab to
+            automate task and to solve problems much more efficiently.
+            Experience in creating python scripts that automatically ingest
+            spreadsheets using Pandas and iterates possible parameters for
+            cellular network towers and outputs solutions to the user.
+          </SkillsItem>
           <SkillsLanguage
-            skill1="html"
-            skill2="css"
-            skill3="javascript"
-            level1="w-[91%]"
-            level2="w-[88%]"
+            skill1="Python"
+            skill2="Troubleshooting"
+            skill3="Virtual Machines"
+            level1="w-[90%]"
+            level2="w-[90%]"
             level3="w-[90%]"
           />
         </div>
         <div>
-          <SkillsItem title="Next JS Developer" year="2018-2021" />
-          <SkillsItem title="NodeJS Developer" year="2021-2023" />
+          <SkillsItem title="Web Development" year="2022-2024">
+            Has created an IoT interface website using NodeJS as backend,
+            handlebars in frontend and MongoDB as a database. Has a knowledge in
+            using CRUD and Websocket API in communicating with client the side.
+            Has created several React and NextJS app and is on a process of
+            creating scheduling system for a company.
+          </SkillsItem>
+          <SkillsItem title="Microcontoller and App Analysis" year="2021-2023">
+            Has built different microcontroller projects using Arduino and ESP32
+            microcontroller. Has an experience in MQTT, Tensorflow in
+            Microcontroller, C/C++, Python, IoT and Microcontroller Development.
+            Experience in OpenGL and DirectX hooking, C++ memory manipulations,
+            debugging and decompiling softwares.
+          </SkillsItem>
           <SkillsLanguage
-            skill1="React"
-            skill2="Next JS"
-            skill3="Typescript"
-            level1="w-[91%]"
-            level2="w-[88%]"
+            skill1="React JS"
+            skill2="App Debugging"
+            skill3="C/C++"
+            level1="w-[90%]"
+            level2="w-[90%]"
             level3="w-[90%]"
           />
         </div>
