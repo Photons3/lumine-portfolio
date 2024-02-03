@@ -7,13 +7,13 @@ const TextEffect = () => {
       sequence={[
         // Same substring at the start will only be typed out once, initially
         "Programmer",
-        1500, // wait 1s before replacing "Mice" with "Hamsters"
-        "Electronics",
-        1500,
+        1000, // wait 1s before replacing "Mice" with "Hamsters"
+        "Electronics Engineer",
+        1000,
         "Web Developer",
-        1500,
+        1000,
         "Gamer",
-        1500,
+        1000,
       ]}
       wrapper="span"
       speed={50}
