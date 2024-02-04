@@ -10,7 +10,7 @@ const Skills = () => {
       </h1>
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center">
         <div>
-          <SkillsItem title="Service Engineer" year="2018-2022">
+          <SkillsItem title="Electronics Engineer" year="2018-2022">
             Licensed Electronics Engineer, handles accounts such as hospitals
             and clinics around Manila and Southern Luzon. Has an experience in
             quality assurance, troubleshooting and reparing medical equipments.
