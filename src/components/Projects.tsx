@@ -17,7 +17,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/servicesched.png"
+              src="/images/Pservicesched.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -30,7 +30,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/aquaponicssystem.png"
+              src="/images/Paquaponicssystem.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -43,7 +43,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/lineofsight.png"
+              src="/images/Plineofsight.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -52,11 +52,11 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="900">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            AmongUS, Assault Cube and MIR4 Hacktool
+            Among Us Internal Hacktool
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/amongus.png"
+              src="/images/Pamongus.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -69,7 +69,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/LSTM.png"
+              src="/images/PLSTM.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -82,7 +82,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <Image
-              src="/images/foodorderapp.png"
+              src="/images/Pfoodorderapp.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"

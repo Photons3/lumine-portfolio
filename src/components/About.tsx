@@ -35,7 +35,7 @@ const About = () => {
           className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative"
         >
           <Image
-            src="/images/about.jpg"
+            src="/images/jester2.jpg"
             alt="user"
             layout="fill"
             objectFit="contain"

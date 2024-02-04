@@ -65,9 +65,9 @@ const HomePage = () => {
           {/* Projects Page */}
           <Projects />
           {/* Reviews Page */}
-          <Testimonial />
+          {/* <Testimonial /> */}
           {/* Blog Page */}
-          <Blog />
+          {/* <Blog /> */}
           {/* Footer Page */}
           <Footer />
         </div>
