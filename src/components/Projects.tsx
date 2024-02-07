@@ -8,7 +8,7 @@ const Projects = () => {
       className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb:[1rem]"
     >
       <h1 className="heading">
-        Pro<span className="text-yellow-400">Ject</span>
+        Pro<span className="text-yellow-400">Jects</span>
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[2rem]">
         <div data-aos="fade-up">
@@ -16,25 +16,35 @@ const Projects = () => {
             Service Scheduling Dashboard
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/Pservicesched.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://github.com/Photons3/service-engineers-sched"
+              target="_blank"
+            >
+              <Image
+                src="/images/Pservicesched.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="300">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            AI Powered Aquaponics System
+            IoT Powered AI Aquaponics System
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/Paquaponicssystem.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://github.com/Photons3/Aquaponics-System-Dashboard"
+              target="_blank"
+            >
+              <Image
+                src="/images/Paquaponicssystem.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="600">
@@ -42,12 +52,17 @@ const Projects = () => {
             Cellular Tower Parameters Solver
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/Plineofsight.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://colab.research.google.com/drive/1PFHlUJO1LQGuri7j3C71i8W4HixPPJ4M?usp=sharing"
+              target="_blank"
+            >
+              <Image
+                src="/images/Plineofsight.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="900">
@@ -55,12 +70,17 @@ const Projects = () => {
             Among Us Internal Hacktool
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/Pamongus.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://github.com/Photons3/Among-Us-Internal-Hack--obsolete-"
+              target="_blank"
+            >
+              <Image
+                src="/images/Pamongus.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="1200">
@@ -68,12 +88,17 @@ const Projects = () => {
             Forecast AI using Tensorflow LSTM
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/PLSTM.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://colab.research.google.com/drive/1qrwsa0I1ZRuQ-d6GKIN8tdusp4qm7n6q?usp=sharing"
+              target="_blank"
+            >
+              <Image
+                src="/images/PLSTM.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="1500">
@@ -81,12 +106,17 @@ const Projects = () => {
             React Mini projects
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
-            <Image
-              src="/images/Pfoodorderapp.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
+            <a
+              href="https://github.com/Photons3/Events-Scheduling-React"
+              target="_blank"
+            >
+              <Image
+                src="/images/Pfoodorderapp.jpg"
+                alt="portfolio"
+                layout="fill"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
       </div>
