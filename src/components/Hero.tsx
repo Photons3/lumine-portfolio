@@ -2,6 +2,8 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/24/solid";
 
 const Hero = () => {
@@ -29,10 +31,18 @@ const Hero = () => {
               <p>Download CV</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
-            <button className="flex items-center space-x-2">
-              <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6a5]" />
+            <button
+              onClick={() => {
+                window.open("https://github.com/Photons3?tab=repositories", "_blank");
+              }}
+                className="flex items-center space-x-2"
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="w-[3.5rem] h-[3.5rem] hover:text-yellow-400 transition-all duration-200"
+              />
               <p className="text-[20px] font-semibold text-white">
-                Watch The Video
+                Github Repository
               </p>
             </button>
           </div>
