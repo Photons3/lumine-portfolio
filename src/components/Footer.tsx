@@ -18,7 +18,7 @@ const Footer = () => {
               Address
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              Paranaque City <br />
+              Parañaque City <br />
               Santa Cruz, Laguna
             </p>
           </div>
