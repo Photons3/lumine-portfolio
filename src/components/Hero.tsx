@@ -2,11 +2,16 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
+import { saveAs } from "file-saver";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/24/solid";
 
 const Hero = () => {
+  const downloadCV = () => {
+    saveAs("/files/Jester Arcas Resume.pdf", "Jester Arcas Resume.pdf");
+  };
+
   return (
     <div
       id="home"
@@ -27,15 +32,21 @@ const Hero = () => {
             through reading books, e-books and videos available on the internet
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+            <button
+              onClick={downloadCV}
+              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2"
+            >
               <p>Download CV</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
             <button
               onClick={() => {
-                window.open("https://github.com/Photons3?tab=repositories", "_blank");
+                window.open(
+                  "https://github.com/Photons3?tab=repositories",
+                  "_blank"
+                );
               }}
-                className="flex items-center space-x-2"
+              className="flex items-center space-x-2"
             >
               <FontAwesomeIcon
                 icon={faGithub}
