@@ -58,12 +58,12 @@ const HomePage = () => {
         <div className="relative z-[30]">
           {/* About Section */}
           <About />
-          {/* Services Page */}
-          <Services />
-          {/* Skills Page */}
-          <Skills />
           {/* Projects Page */}
           <Projects />
+          {/* Skills Page */}
+          <Skills />
+          {/* Services Page */}
+          <Services />
           {/* Reviews Page */}
           {/* <Testimonial /> */}
           {/* Blog Page */}

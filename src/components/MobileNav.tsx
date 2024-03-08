@@ -26,7 +26,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
           SKILLS
         </Link>
         <Link href="#projects" className="nav-link-mobile">
-          PROJECT
+          PROJECTS
         </Link>
         {/* <Link href="#blog" className="nav-link-mobile">
           BLOG
