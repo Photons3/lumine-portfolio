@@ -17,7 +17,7 @@ const Skills = () => {
             Also, in charge of training, demo and installation of different
             medical equipment.
           </SkillsItem>
-          <SkillsItem title="Scripting/Automation" year="2020-2023">
+          <SkillsItem title="Scripting and Automation" year="2020-2023">
             Used Python, Jupiter Notebooks, Linux Virtual Machines and Matlab to
             automate task and to solve problems much more efficiently.
             Experience in creating python scripts that automatically ingest

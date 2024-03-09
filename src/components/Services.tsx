@@ -42,7 +42,7 @@ const Services = () => {
               Has an experience in creating Web Applications and Desktop
               Applications. Has a knowledge in C++, OpenGL, MongoDB, NodeJS,
               ReactJS, NextJS, Python and Tensorflow. Also, has an experience
-              creting scripts in Python and Matlab so solve problems
+              creating scripts in Python and Matlab so solve problems
               efficiently.
             </p>
           </div>

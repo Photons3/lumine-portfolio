@@ -31,7 +31,7 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="300">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            IoT Powered AI Aquaponics System
+            IoT AI Aquaponics System
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
@@ -49,7 +49,7 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="600">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            Cellular Tower Parameters Solver
+            Cellular Tower Solver
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
@@ -85,7 +85,7 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="1200">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            Forecast AI using Tensorflow LSTM
+            Forecast AI Tensorflow LSTM
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
