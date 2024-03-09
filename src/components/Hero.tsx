@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            I&apos;m an Electronics Engineer that loves to thinker with
+            I&apos;m an Electronics Engineer that loves to tinker with
             electronics devices and automate them. I started learning
             programming when I was a 10 years old being inspired by Game
             Hacking. Loves computers in general and by hobby learned programming
