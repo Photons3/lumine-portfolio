@@ -9,7 +9,7 @@ import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/24/solid";
 
 const Hero = () => {
   const downloadCV = () => {
-    saveAs("/files/Jester Arcas Resume.pdf", "Jester Arcas Resume.pdf");
+    saveAs("/files/Jester-Arcas-Resume.pdf", "Jester Arcas Resume.pdf");
   };
 
   return (
