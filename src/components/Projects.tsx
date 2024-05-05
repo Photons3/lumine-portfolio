@@ -13,15 +13,15 @@ const Projects = () => {
       <div className="w-[80%] pt-[2rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-[2rem]">
         <div data-aos="fade-up">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            Service Scheduling Dashboard
+            Stock Watch
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
-              href="https://github.com/Photons3/service-engineers-sched"
+              href="https://github.com/Photons3/finance-portfolio-frontend"
               target="_blank"
             >
               <Image
-                src="/images/Pservicesched.jpg"
+                src="/images/finance-portfolio.jpg"
                 alt="portfolio"
                 layout="fill"
                 className="object-contain"
