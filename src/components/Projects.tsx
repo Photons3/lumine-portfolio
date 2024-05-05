@@ -85,15 +85,15 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="1200">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            Forecast AI Tensorflow LSTM
+            Stock Info Website
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
-              href="https://colab.research.google.com/drive/1qrwsa0I1ZRuQ-d6GKIN8tdusp4qm7n6q?usp=sharing"
+              href="https://github.com/Photons3/finance-portfolio-frontend"
               target="_blank"
             >
               <Image
-                src="/images/PLSTM.jpg"
+                src="/images/PFinance.jpg"
                 alt="portfolio"
                 layout="fill"
                 className="object-contain"
