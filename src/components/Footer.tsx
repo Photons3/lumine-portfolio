@@ -32,7 +32,6 @@ const Footer = () => {
               Phone
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
-              +639195810333 <br />
               +639053172211
             </p>
           </div>
