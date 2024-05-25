@@ -19,7 +19,7 @@ const Footer = () => {
             </h1>
             <p className="text-[17px] w-[100%] text-white opacity-60">
               Parañaque City <br />
-              Sta. Cruz, Laguna
+              Philippines
             </p>
           </div>
         </div>
