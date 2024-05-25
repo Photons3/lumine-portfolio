@@ -85,15 +85,15 @@ const Projects = () => {
         </div>
         <div data-aos="fade-up" data-aos-delay="1200">
           <h1 className="text-white capitalize text-[19px] my-auto text-center">
-            Stock Info Website
+            Events Scheduling App
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
-              href="https://github.com/Photons3/finance-portfolio-frontend"
+              href="https://github.com/Photons3/Events-Scheduling-React"
               target="_blank"
             >
               <Image
-                src="/images/PFinance.jpg"
+                src="/images/PEvents.jpg"
                 alt="portfolio"
                 layout="fill"
                 className="object-contain"
@@ -107,7 +107,7 @@ const Projects = () => {
           </h1>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px] ">
             <a
-              href="https://github.com/Photons3/Events-Scheduling-React"
+              href="https://github.com/Photons3/Food-Order-App---React"
               target="_blank"
             >
               <Image
